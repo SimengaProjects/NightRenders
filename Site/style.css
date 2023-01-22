@@ -1,0 +1,121 @@
+.main{
+	height: 100%;
+	width: 100%;
+	background: gold;
+}
+.main2{
+	height: 100%;
+	width: 60%;
+	background: gainsboro;	
+}
+.calendar{
+	height: 350px;
+	margin: auto;
+	margin-top: 20px;
+	width: 80%;
+	background: red;
+}
+.month{
+	height: 64px;
+	width: 75%;
+	margin: auto;
+	background: white;
+	text-align: center;
+}
+.days{
+	display: flex;
+	margin: auto;
+	margin-top: 16px;
+	height: 250px;
+	width: 50%;
+	vertical-align: middle;
+
+}
+a.text:active,a.text:hover,a.text,a {
+  text-decoration: none;
+  color: black;
+}
+.informationtop{
+	display: flex;
+	background: silver;
+	width: 80%;
+	height: 30%;
+	margin: auto;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.informationbot{
+	display: flex;
+	width: 95%;
+	height: 60%;
+	background: violet;
+	margin: auto;
+}
+.date{
+	height: 32px;
+	width: 32px;
+	margin-right: 8px;
+	background: green;
+	text-align: center;
+	vertical-align: middle;
+}
+.datebig{
+	height: 128px;
+	width: 128px;
+	margin-right: 8px;
+	background: url(./photos/1.jpg) ;
+	text-align: center;
+	vertical-align: middle;	
+	background-size: cover;
+}
+.textblock{
+	height: 80%;
+	width: 80%;
+	background: lightcoral;
+}
+.photoblock{
+	height: 100%;
+	width: 15vw;
+	background: orange;
+}
+.photopres{
+	height: 23vh;
+	width: 14vw;
+	background: blue;
+	margin-bottom: 8px;
+	margin-top: 4px;
+	margin-left: 4px;
+}
+.roomblock{
+	height: 100%;
+	width: 70vw;
+	background: peachpuff;	
+	display: flex;
+	flex-direction: column;
+}
+.roomtext{
+	height: 128px;
+	width: 85%;
+	margin: auto;
+	background: lavender;
+	text-align: center;
+}
+.roomphotos{
+	height: 100%;
+	width: 99%;
+	background: honeydew;	
+	display: flex;	
+	justify-content: space-evenly;
+}
+.photoroom{
+	height: 40vh;
+	width: 40vw;
+	background: aqua;
+	margin-bottom: 8px;
+	margin-top: 4px;
+	margin-left: 4px;	
+}
+.roomtext{
+	font-size: 56px;
+	font-weight: bold;
+}
