@@ -8,6 +8,26 @@
 	width: 60%;
 	background: gainsboro;	
 }
+.stick{
+	position: fixed;
+	width: 65vw;
+	height: 90vh;
+	opacity: 0.7;
+	z-index: -0;
+	background: purple;
+	margin: auto;
+}
+.stickwrap {
+position:fixed;
+display:flex;
+align-items:center;
+justify-content:center;
+top:0px;
+left:0px;
+width:100vw;
+height:100vh;
+z-index: -1;
+}
 .calendar{
 	height: 350px;
 	margin: auto;
